@@ -1,5 +1,5 @@
 type Song = {
-    "id": 1,
+    "id": number,
     "file-name": string,
     "name": {
         "name-USen": string,
@@ -24,9 +24,9 @@ type Song = {
     "image_uri": string
 }
 
-type SongCard = {
+type SongCardData = {
     id: number,
     song: Song
 }
 
-export type {Song, SongCard}
+export type {Song, SongCardData}

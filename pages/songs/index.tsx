@@ -1,25 +1,38 @@
-import Link from "next/link";
 import axios from "axios";
 
-import styles from "../index.module.css";
 import type {Song} from "../../types/Song";
+import SongCard from "../../components/song-card";
+import Header from "../../components/header";
+import { motion } from "framer-motion";
 
 export async function getStaticProps() {
-  const { data } = await axios.get("https://acnhapi.com/v1/songs/");
+    const {data} = await axios.get("https://acnhapi.com/v1/songs/");
 
-  const newData = Object.values(data)
+    const newData = Object.values(data)
 
-  return {
-    props: {
-      songs: newData
-    }
-  };
+    return {
+        props: {
+            songs: newData
+        }
+    };
 }
 
-export default function Home({ songs }: {songs: Song[]}) {
-  return (
-      <div className={styles.root}>
-        {songs.map(res => <div>{res.id}</div>)}
-      </div>
-  );
+export default function Home({songs}: { songs: Song[] }) {
+    return (
+        <div>
+            <motion.div>
+                <Header/>
+                <div className="flex justify-center">
+                    <div className="grid place-content-center
+                grid grid-cols-1 gap-2
+                sm:grid-cols-3 sm:gap-4
+                lg:grid-cols-4 lg:gap-5">
+                        {songs.map(res =>
+                            <SongCard song={res} key={res.id}/>
+                        )}
+                    </div>
+                </div>
+            </motion.div>
+        </div>
+    );
 }
