@@ -1,0 +1,108 @@
+{
+  "testSuite": "BackstopJS",
+  "tests": [
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Kekes_Homepage_0_document_0_phone.png",
+        "test": "..\\bitmaps_test\\20220619-181849\\backstop_default_Kekes_Homepage_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "backstop_default_Kekes_Homepage_0_document_0_phone.png",
+        "label": "Keke's Homepage",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 70,
+        "url": "http://localhost:3000/",
+        "referenceUrl": "",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "error": "Reference file not found C:\\Users\\quimb\\Desktop\\Dev\\keke-songs\\backstop_data\\bitmaps_reference\\backstop_default_Kekes_Homepage_0_document_0_phone.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Kekes_Homepage_0_document_1_tablet.png",
+        "test": "..\\bitmaps_test\\20220619-181849\\backstop_default_Kekes_Homepage_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "backstop_default_Kekes_Homepage_0_document_1_tablet.png",
+        "label": "Keke's Homepage",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 70,
+        "url": "http://localhost:3000/",
+        "referenceUrl": "",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "error": "Reference file not found C:\\Users\\quimb\\Desktop\\Dev\\keke-songs\\backstop_data\\bitmaps_reference\\backstop_default_Kekes_Homepage_0_document_1_tablet.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Kekes_Contact_0_document_0_phone.png",
+        "test": "..\\bitmaps_test\\20220619-181849\\backstop_default_Kekes_Contact_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "backstop_default_Kekes_Contact_0_document_0_phone.png",
+        "label": "Keke's Contact",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 70,
+        "url": "http://localhost:3000/contact",
+        "referenceUrl": "",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "error": "Reference file not found C:\\Users\\quimb\\Desktop\\Dev\\keke-songs\\backstop_data\\bitmaps_reference\\backstop_default_Kekes_Contact_0_document_0_phone.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Kekes_Contact_0_document_1_tablet.png",
+        "test": "..\\bitmaps_test\\20220619-181849\\backstop_default_Kekes_Contact_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "backstop_default_Kekes_Contact_0_document_1_tablet.png",
+        "label": "Keke's Contact",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 70,
+        "url": "http://localhost:3000/contact",
+        "referenceUrl": "",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "error": "Reference file not found C:\\Users\\quimb\\Desktop\\Dev\\keke-songs\\backstop_data\\bitmaps_reference\\backstop_default_Kekes_Contact_0_document_1_tablet.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Kekes_Terms_of_service_0_document_0_phone.png",
+        "test": "..\\bitmaps_test\\20220619-181849\\backstop_default_Kekes_Terms_of_service_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "backstop_default_Kekes_Terms_of_service_0_document_0_phone.png",
+        "label": "Keke's Terms of service",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 70,
+        "url": "http://localhost:3000/terms-of-service",
+        "referenceUrl": "",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "error": "Reference file not found C:\\Users\\quimb\\Desktop\\Dev\\keke-songs\\backstop_data\\bitmaps_reference\\backstop_default_Kekes_Terms_of_service_0_document_0_phone.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Kekes_Terms_of_service_0_document_1_tablet.png",
+        "test": "..\\bitmaps_test\\20220619-181849\\backstop_default_Kekes_Terms_of_service_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "backstop_default_Kekes_Terms_of_service_0_document_1_tablet.png",
+        "label": "Keke's Terms of service",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 70,
+        "url": "http://localhost:3000/terms-of-service",
+        "referenceUrl": "",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "error": "Reference file not found C:\\Users\\quimb\\Desktop\\Dev\\keke-songs\\backstop_data\\bitmaps_reference\\backstop_default_Kekes_Terms_of_service_0_document_1_tablet.png"
+      },
+      "status": "fail"
+    }
+  ],
+  "id": "backstop_default"
+}
