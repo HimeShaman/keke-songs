@@ -11,7 +11,7 @@ export default function Header() {
                 <Link href="songs" >
                     <a className="self-center mx-1 hover:text-zinc-300">Songs</a>
                 </Link>
-                <Link href="" >
+                <Link href="contact" >
                     <a className="self-center mx-1 hover:text-zinc-300">Contact</a>
                 </Link>
                 <Link href="terms-of-service" >
