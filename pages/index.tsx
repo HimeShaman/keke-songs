@@ -1,7 +1,6 @@
 import {StaticFileData} from "../types/default";
 import {getStaticFileData} from "../lib/staticPage";
 import Link from "next/link";
-import {Head} from "next/document";
 import Header from "../components/header";
 import {motion} from "framer-motion";
 
@@ -21,7 +20,7 @@ export default function Home({staticFileData}: { staticFileData: StaticFileData 
             <motion.div>
                 <Header/>
                 <div
-                    className="flex flex-col my-5 mx-auto p-3 bg-white/40 backdrop-blur-lg rounded drop-shadow-lg w-5/6">
+                    className="flex flex-col my-5 mx-auto p-3 bg-white/40 backdrop-blur-lg rounded drop-shadow-lg w-full md:w-3/4 lg:w-1/2 xl:w-3/5">
                     <p>{staticFileData.teasing}</p>
                     <h1 className="text-3xl font-bold text-black">{staticFileData.title}</h1>
                     <Link href="songs">
