@@ -21,7 +21,7 @@ export default function Contact() {
             <Header/>
             <div className="flex flex-col my-5 mx-auto p-3 md:p-5 lg:px-10 bg-white/40 backdrop-blur-lg rounded drop-shadow-lg w-full md:w-3/4 lg:w-1/2 xl:w-2/5">
                 <h1 className="text-3xl font-bold text-black">Contact</h1>
-                <form onSubmit={handleSubmit} className="flex flex-col">
+                <form onSubmit={handleSubmit} className="flex flex-col contact-form">
                     <label htmlFor="email" className="text-sm text-zinc-500">Email Address</label>
                     <input id="email" type="email" name="email" required className="rounded text-zinc-600"/>
                     <ValidationError prefix="Email" field="email" errors={state.errors} className="text-red-500"/>
